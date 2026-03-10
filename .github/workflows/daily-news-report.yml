@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+     - name: Checkout code
         uses: actions/checkout@v2
       - name: Run daily news report
         run: echo "Generating daily news report"
